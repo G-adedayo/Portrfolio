@@ -1,2 +1,2 @@
 # Portrfolio
-My portfolia for a job
+My portfolio for a job
