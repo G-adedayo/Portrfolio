@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Adedayo Ganiyyah</title>
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ham.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="nav-branding">Contacts</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">PROJECTS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="3edee9f5-4d07-4007-9fe0-6dde8a7b313c">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+            <button type="submit">Submit<img src="arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="right_img.png" alt="">
+        </div>
+    </div>
+
+    <script src="ham.js"></script>
+</body>
+</html>
